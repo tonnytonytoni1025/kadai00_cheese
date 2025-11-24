@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEMO</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-['georgia']">
+    <!-- flexで横並びにできるよ -->
+    <header class="flex justify-center items-center h-32 bg-no-repeat bg-cover bg-center bg-[url('imgs/hedder.jpg')] ">
+        <h1>HEDDER</h1>
+
+    </header>
+
+    <main>
+        <h1 class="flex justify-center h-12 items-center bg-blue-300"> MAIN CONTENTS</h1>
+        <section class="sm:flex">
+
+            <section id="LEFT" class="w-1/4 p-2">
+                <nav>
+                    <h2>MENU</h2>
+                    <ul>
+                        <li class="hover:bg-blue-500 hover:text-whiite rounded "><a href="" >HOME</a></li>
+                        <li class="hover:bg-blue-500 hover:text-whiite rounded "><a href="">ACCESE</a></li>
+                        <li class="hover:bg-blue-500 hover:text-whiite rounded "><a href="">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </section>
+
+            <section id="right" class="flex flex-wrap justify-around p-4 sm:border-t-0 border-t-4 sm:border-l-4 border-slate-100">
+                <section>
+                    <h2 class="p-4">CONTENtS1</h2>
+                    <p>Today`s HOKKAIDO</p>
+                    <img src="imgs/phot1.jpg" alt="" class="w-64 ">
+                </section>
+                <section>
+                    <h2 class="p-4">CONTENtS2</h2>
+                    <p>Today`s HOKKAIDO</p>
+                    <img src="imgs/photo2.jpg" alt=""class="w-64 ">
+                </section>
+                <section>
+                    <h2 class="p-4">CONTENtS3</h2>
+                    <p>Today`s HOKKAIDO</p>
+                    <img src="imgs/pthot3.jpg" alt=""class="w-64">
+                </section>
+                <section>
+                    <h2 class="p-4">CONTENSt4</h2>
+                    <p class="bg-blue-500 hover:bg-yellow-500 ">Today`s HOKKAIDO</p>
+                    <img src="imgs/photo4.jpg" alt=""class="w-64 ">
+                </section>
+                <section>
+                    <h2>CONTENTS5</h2>
+                    <p>EXTRA IMG</p>
+                    <img src="imgs/dog.jpg" alt=""class="w-64 " >
+
+
+                </section>
+            </section>
+
+
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        <h1 class=" flex justify-center h-12 items-center bg-green-300">FOOTER</h1>
+
+
+    
+    </footer>
+</body>
+</html>
